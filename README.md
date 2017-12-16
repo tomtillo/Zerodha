@@ -30,6 +30,7 @@ kite.login_url()
 This is the url you can use to get your access token. 
 
 Enter your request token and your API secret here :
+
 ```
 user = kite.request_access_token(request_token="request_token_here",
                                      secret="api_secret_key_here")
